@@ -94,7 +94,7 @@
 
 
 
-
+\definecolor{UniRed}{RGB}{166,28,49}
 
 \begin{document}
 
@@ -166,6 +166,8 @@
 % \item\tiny Nuclear Pleomorphism Scoring 
 % \item\tiny Tubule Count
 % \item\tiny Mitotic Activity
+
+
 
 \end{frame}
 
@@ -271,9 +273,9 @@ A quantitative measurement of nuclear pleomorphism is not currently available %b
 \begin{frame}{Nuclei Detection}
 %\hspace*{-3cm}
 \begin{itemize}
-\item<1-> \smallsize Using a color deconvolution technique the Hematoxylin (H) and eosin (E) stains are estimated% \footnote{\tiny{A method for normalizing histology slides for quantitative analysis, Macenko et al.ISBI 2009}}
-\item<3-> \smallsize Watershed algorithm is used to detect nuclei candidates in H stain%\footnote{\tiny{Veta M.,ISBI 2011}}
-\item<4-> \smallsize Final candidates are found after morphological operations
+\item<1-> \small Using a color deconvolution technique the Hematoxylin (H) and eosin (E) stains are estimated% \footnote{\tiny{A method for normalizing histology slides for quantitative analysis, Macenko et al.ISBI 2009}}
+\item<3-> \small Watershed algorithm is used to detect nuclei candidates in H stain%\footnote{\tiny{Veta M.,ISBI 2011}}
+\item<4-> \small Final candidates are found after morphological operations
 \end{itemize}
 
 \begin{textblock*}{2cm}(1cm,6cm) % {block width} (coords)
@@ -574,21 +576,21 @@ Grade 3              & 39              \\ \hline\hline
 
 
 
-\begin{frame}{Visual Results - multiscale and cosine transform}
-\centering
-\includegraphics[width=0.85\textwidth]{imagenes/all.png}
-\end{frame}
+%\begin{frame}{Visual Results - multiscale and cosine transform}
+%\centering
+%\includegraphics[width=0.85\textwidth]{imagenes/all.png}
+%\end{frame}
 
-\begin{frame}{Visual Results - Space by topic}
-\vspace{-0.45cm}
-\begin{table}[]
-\begin{tabular}{ll}
- \includegraphics[width=0.31\textwidth]{imagenes/cluster3.png}& \includegraphics[width=0.31\textwidth]{imagenes/cluster4.png} \\
-\includegraphics[width=0.31\textwidth]{imagenes/cluster8.png} & \includegraphics[width=0.31\textwidth]{imagenes/clustes7.png}
-\end{tabular}
-\end{table}
-
-\end{frame}
+%\begin{frame}{Visual Results - Space by topic}
+%\vspace{-0.45cm}
+%\begin{table}[]
+%\begin{tabular}{ll}
+% \includegraphics[width=0.31\textwidth]{imagenes/cluster3.png}& \includegraphics[width=0.31\textwidth]{imagenes/cluster4.png} \\
+%\includegraphics[width=0.31\textwidth]{imagenes/cluster8.png} & \includegraphics[width=0.31\textwidth]{imagenes/clustes7.png}
+%\end{tabular}
+%\end{table}
+%
+%\end{frame}
 
 
 \begin{frame}{Proposed Grading Methodology}
