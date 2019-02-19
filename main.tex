@@ -67,8 +67,17 @@
 %%% Bibliography
 \usepackage[style=authoryear,backend=biber]{biblatex}
 \usepackage{pgfplots}
+\usepackage{etoolbox}
 \addbibresource{bibliography.bib}
 
+\BeforeBeginEnvironment{theorem}{
+    \setbeamercolor{block title}{fg=black,bg=orange!50!white}
+    \setbeamercolor{block body}{fg=orange, bg=orange!30!white}
+}
+\AfterEndEnvironment{theorem}{
+ \setbeamercolor{block title}{use=structure,fg=structure.fg,bg=structure.fg!20!bg}
+ \setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!50!bg, fg=black}
+}
 %%% Suppress biblatex annoying warning
 \usepackage{silence}
 \WarningFilter{biblatex}{Patching footnotes failed}
@@ -103,23 +112,84 @@
 \titlepage
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%OUTLINE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{frame}{Outline}
-%\tableofcontents
-%\end{frame}
+\begin{frame}{Pathological examination issues}
+	\begin{itemize}
+	 \item Due to the heterogeneity of the disease most of the morphological indicators of prognosis are not quantified
+     \pause
+	 \item Subjective observations are susceptible to inter and intra observer variations
+      \textcolor{red}{Imagenes con kappa}	 
+	 
+	% \item As consequence the prognosis is prone to error
+	 % tumor contour, lymphotic reaction in tumor, nuclear cytology, vascular invasion, tumor proliferation
+	\end{itemize}
+\end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%WHAT IS AN ONTOLOGY
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{The Suitability of a Quantitative Estimation}
+ \begin{itemize}
+  \item Digital version of whole glass slide and image analysis are using to improve the diagnosis
+  \pause
+
+  \item The Quantification of morphological structures to determine the predisposition of a disease and to deliver healthcare\textcolor{red}{imagenes??}
+  
+  
+  
+ \end{itemize}
+\end{frame}
+
+\section{Quantification of Premalignant Lesions of Gastric Mucosa - 1st case of Study}
+
+\begin{frame}{Gastric Cancer }
+%\vspace{-0.8cm}
+	%\begin{itemize}
+%\only<1->{	\item Gastric cancer (GCa) is the fourth cause of death worldwide (Globocan,2012)}
+		       
+%\only<1->{	   \item Infection with Helicobacter Pylori bacteria (HP) has relationship with $80\%$ of GCa cases (Talley,2008)}
+
+%\only<2->{\item Close to $60\%$ of the people has HP infection.}
+%\only<3->{\item $~10\%$ of the people with helicobacter infection would get GCa in the future. (Hooi J.,2017;Pounder R.,1995)}
+
+
+
+     
+		
+%	\end{itemize}
+%\vspace{0.2cm}
+\only<1->{\centering\includegraphics[width=1\textwidth]{imagenes/histopathway.png}\\
+\tiny{Correa’s Cascade of Gastric Carcinogenesis;1976}}
+
+\only<2->{\vspace*{-3cm}
+	\begin{alertblock}
+{		\LARGE Some studies suggest that the cancer progression could not follow the proposed sequence!\footnote{articulitos}}
+	\end{alertblock}
+}
+	
+% \only<4>{	\begin{table}[]
+% 		\centering
+		
+% 		\label{my-label}
+% \begin{tabular}{|c|c|c|c|}
+% \hline
+%              $ Region \backslash n. in Thousands$                 & \textbf{Cases } & \textbf{Death} & \textbf{5-Years prevalence(survivor)} \\ \hline
+% \textbf{World}                  & 952            & 723            & 1538                        \\ \hline
+% \textbf{More Developed regions} & 275            & 175            & 565                         \\ \hline
+% \textbf{Less Developed Regions} & 677            & 548            & 974                         \\ \hline
+% \end{tabular}
+% \caption{GLOBOCAN2012}
+% 	\end{table}
+% 		}
+\end{frame}
+  
+       
+		
+
+
+\section{Second case of Study}
 
 \section{ Nuclear Pleomorphism (NP) - The Suitability of a Quantitative Estimation}
+
+
 
 
 \begin{comment}
@@ -360,7 +430,7 @@ NP 3  & 92            \\ \hline
 \hline
 Experiment/S.Patch & \begin{tabular}[c]{@{}c@{}}32x32\\ L2\end{tabular} & \begin{tabular}[c]{@{}c@{}}20x20\\ L2\end{tabular} \\ \hline
 1 vs 2 and 3       & \textbf{0.593}                                              & 0.434                                              \\ \hline
-3 vs 1 and 1       & \textbf{0.642}                                              & 0.47                                               \\ \hline
+3 vs 1 and 2       & \textbf{0.642}                                              & 0.47                                               \\ \hline
 1 vs 2             & \textbf{0.7128}                                             & 0.47                                               \\ \hline
 1 vs 3             & 0.660                                              & \textbf{0.7029}                                             \\ \hline
 2 vs 3             & \textbf{0.6759}                                             & 0.5813                                             \\ \hline
