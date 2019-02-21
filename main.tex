@@ -67,7 +67,9 @@
 %%% Bibliography
 \usepackage[style=authoryear,backend=biber]{biblatex}
 \usepackage{pgfplots}
+\usepackage{footmisc}
 \usepackage{etoolbox}
+
 \addbibresource{bibliography.bib}
 
 \BeforeBeginEnvironment{theorem}{
@@ -91,12 +93,12 @@
 \usepackage{lipsum}% http://ctan.org/pkg/lipsum
 \usepackage{hanging}% http://ctan.org/pkg/hanging
 
-\let\oldfootnote\footnote
-\renewcommand\footnote[1][]{\vspace{1cm}\footnotesize\oldfootnote[frame,#1]}
-\renewcommand{\footnoterule}{%
-
-\kern 2pt
-}
+%\let\oldfootnote\footnote
+%\renewcommand\footnote[1][]{\vspace{1cm}\footnotesize\oldfootnote[frame,#1]}
+%\renewcommand{\footnoterule}{%
+%
+%\kern 2pt
+%}
 
 
 
@@ -161,7 +163,7 @@
 
 \only<2->{\vspace*{-3cm}
 	\begin{alertblock}
-{		\LARGE Some studies suggest that the cancer progression could not follow the proposed sequence!\footnote{articulitos}}
+{		\LARGE Some studies suggest that the cancer progression could not follow this sequence!\footnotemark[1]}
 	\end{alertblock}
 }
 	
@@ -179,10 +181,29 @@
 % \caption{GLOBOCAN2012}
 % 	\end{table}
 % 		}
+\footnotetext{Atrophy-metaplasia-dysplasia-carcinoma
+sequence in the stomach: a reality or merely
+an hypothesis?,}
 \end{frame}
-  
-       
-		
+%  
+%
+%\begin{frame}{reasons to doubt}
+%
+%\begin{itemize}
+% \item Diffuse type of gastric cancer are not related with atrophy or metaplasia (Lauren classification)
+% \pause
+% \item In the non-atrophic gastritis foci of intestinal metaplasia are found  \footnote{Stolte M, Zeitschrift f\"ur Gastroenterologie, 1992 \label{repite}}
+%
+% \pause
+%  \item \normalsize Metaplasia grade I and II have been show no risk for cancer progression. \footnote{Filipe ML, International Journal of Cancer, 1994}
+%  \item Dysplasia are not found in micro-early carcinomas ($Diameter < 5mm$)\footnote{Hattori T.,Cancer 1986}\footnote{•}
+%  \footnote{Stolte M, Zeitschrift f\"ur Gastroenterologie, 1992}
+%
+%  
+%\end{itemize}
+%
+%\end{frame}
+%		
 
 
 \section{Second case of Study}
