@@ -8,6 +8,6 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {2}{Materials and Methods}{20}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Second case of Study}{22}{0}{3}
+\beamer@sectionintoc {3}{Nuclear Pleomorphism (NP) in Ductal carcinoma in situ (DCIS) - 2nd case of Study}{22}{0}{3}
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{ Nuclear Pleomorphism (NP) - The Suitability of a Quantitative Estimation}{23}{0}{4}
