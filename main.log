@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.24)  23 FEB 2019 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.12)  25 FEB 2019 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2070,12 +2070,9 @@ LaTeX Info: Redefining \GenericWarning on input line 433.
 \sl@BankOfErrors=\toks73
 LaTeX Info: Redefining \GenericError on input line 601.
 )
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 164.
-
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
+
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
@@ -2276,22 +2273,27 @@ Package biblatex Info: Reference segment=0 on input line 173.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 5.39996pt on input line 173.
 
-Overfull \hbox (102.88733pt too wide) in paragraph at lines 173--173
+Overfull \hbox (131.10695pt too wide) in paragraph at lines 173--173
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) in paragraph at lines 173--173
+ [][][][]  
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 181.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 181.
-<graphics/cimalablogo.png, id=18, 1204.5pt x 401.5pt>
+<graphics/cimalablogo.png, id=26, 1204.5pt x 401.5pt>
 File: graphics/cimalablogo.png Graphic file (type png)
 
 <use graphics/cimalablogo.png>
 Package pdftex.def Info: graphics/cimalablogo.png used on input line 181.
 (pdftex.def)             Requested size: 99.57832pt x 62.5933pt.
 
-<graphics/logo.png, id=20, 1086.0575pt x 1367.1075pt>
+<graphics/logo.png, id=28, 1086.0575pt x 1367.1075pt>
 File: graphics/logo.png Graphic file (type png)
  <use graphics/logo.png>
 Package pdftex.def Info: graphics/logo.png used on input line 181.
@@ -2310,41 +2312,66 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 3.59998pt on input line 195.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [2
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [3
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [4
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [5
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [6
 
-] <imagenes/grado1.png, id=187, 1229.59375pt x 650.43pt>
+] <imagenes/grado1.png, id=197, 1229.59375pt x 650.43pt>
 File: imagenes/grado1.png Graphic file (type png)
 
 <use imagenes/grado1.png>
@@ -2399,22 +2426,27 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 5.39996pt on input line 451.
 
-<imagenes/grado2.png, id=188, 1229.59375pt x 650.43pt>
+<imagenes/grado2.png, id=198, 1229.59375pt x 650.43pt>
 File: imagenes/grado2.png Graphic file (type png)
 
 <use imagenes/grado2.png>
 Package pdftex.def Info: imagenes/grado2.png used on input line 451.
 (pdftex.def)             Requested size: 112.95807pt x 59.747pt.
 
-<imagenes/grado3.png, id=189, 1229.59375pt x 650.43pt>
+<imagenes/grado3.png, id=199, 1229.59375pt x 650.43pt>
 File: imagenes/grado3.png Graphic file (type png)
 
 <use imagenes/grado3.png>
 Package pdftex.def Info: imagenes/grado3.png used on input line 451.
 (pdftex.def)             Requested size: 112.95807pt x 59.747pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [7
@@ -2434,8 +2466,13 @@ File: imagenes/grado3.png Graphic file (type png)
 Package pdftex.def Info: imagenes/grado3.png used on input line 451.
 (pdftex.def)             Requested size: 112.95807pt x 59.747pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [8
@@ -2455,37 +2492,73 @@ File: imagenes/grado3.png Graphic file (type png)
 Package pdftex.def Info: imagenes/grado3.png used on input line 451.
 (pdftex.def)             Requested size: 112.95807pt x 59.747pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [9
 
-] <imagenes_cnn/metodonuevo.png, id=275, 2197.45969pt x 1303.87125pt>
+]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
+
+] <imagenes_cnn/metodonuevo.png, id=312, 2197.45969pt x 1303.87125pt>
 File: imagenes_cnn/metodonuevo.png Graphic file (type png)
 
 <use imagenes_cnn/metodonuevo.png>
 Package pdftex.def Info: imagenes_cnn/metodonuevo.png used on input line 459.
 (pdftex.def)             Requested size: 342.2953pt x 203.09273pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[10
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[11
 
  <./imagenes_cnn/metodonuevo.png>]
-<MSER/1.jpeg, id=303, 150.5625pt x 150.5625pt>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 495.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 495.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 495.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 4.49997pt on input line 495.
+
+<MSER/1.jpeg, id=340, 150.5625pt x 150.5625pt>
 File: MSER/1.jpeg Graphic file (type jpg)
  <use MSER/1.jpeg>
 Package pdftex.def Info: MSER/1.jpeg used on input line 495.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[11
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[12
 
  <./MSER/1.jpeg>]
 File: MSER/1.jpeg Graphic file (type jpg)
@@ -2493,17 +2566,22 @@ File: MSER/1.jpeg Graphic file (type jpg)
 Package pdftex.def Info: MSER/1.jpeg used on input line 495.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
 
-<MSER/2.jpeg, id=332, 150.5625pt x 150.5625pt>
+<MSER/2.jpeg, id=370, 150.5625pt x 150.5625pt>
 File: MSER/2.jpeg Graphic file (type jpg)
  <use MSER/2.jpeg>
 Package pdftex.def Info: MSER/2.jpeg used on input line 495.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[12
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
 
  <./MSER/2.jpeg>]
 File: MSER/1.jpeg Graphic file (type jpg)
@@ -2515,17 +2593,22 @@ File: MSER/2.jpeg Graphic file (type jpg)
 Package pdftex.def Info: MSER/2.jpeg used on input line 495.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
 
-<MSER/3.jpeg, id=360, 150.5625pt x 150.5625pt>
+<MSER/3.jpeg, id=398, 150.5625pt x 150.5625pt>
 File: MSER/3.jpeg Graphic file (type jpg)
  <use MSER/3.jpeg>
 Package pdftex.def Info: MSER/3.jpeg used on input line 495.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[13
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
 
  <./MSER/3.jpeg>]
 File: MSER/1.jpeg Graphic file (type jpg)
@@ -2541,17 +2624,22 @@ File: MSER/3.jpeg Graphic file (type jpg)
 Package pdftex.def Info: MSER/3.jpeg used on input line 495.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
 
-<MSER/4.jpeg, id=388, 150.5625pt x 150.5625pt>
+<MSER/4.jpeg, id=425, 150.5625pt x 150.5625pt>
 File: MSER/4.jpeg Graphic file (type jpg)
  <use MSER/4.jpeg>
 Package pdftex.def Info: MSER/4.jpeg used on input line 495.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[14
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[15
 
  <./MSER/4.jpeg>]
 File: MSER/1.jpeg Graphic file (type jpg)
@@ -2571,484 +2659,638 @@ File: MSER/4.jpeg Graphic file (type jpg)
 <use MSER/4.jpeg>
 Package pdftex.def Info: MSER/4.jpeg used on input line 495.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
- <MSER/5.jpeg, id=414, 150.5625pt x 150.5625pt>
+ <MSER/5.jpeg, id=451, 150.5625pt x 150.5625pt>
 File: MSER/5.jpeg Graphic file (type jpg)
 
 <use MSER/5.jpeg>
 Package pdftex.def Info: MSER/5.jpeg used on input line 495.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-[15
 
- <./MSER/5.jpeg>]
-<imagenes_cnn/autoencoderresponse.png, id=440, 460.72125pt x 315.1775pt>
-File: imagenes_cnn/autoencoderresponse.png Graphic file (type png)
-
-<use imagenes_cnn/autoencoderresponse.png>
-Package pdftex.def Info: imagenes_cnn/autoencoderresponse.png used on input lin
-e 520.
-(pdftex.def)             Requested size: 222.48985pt x 152.20204pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [16
 
- <./imagenes_cnn/autoencoderresponse.png>]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+ <./MSER/5.jpeg>]
+<imagenes/nucleipatches.png, id=478, 376.607pt x 130.889pt>
+File: imagenes/nucleipatches.png Graphic file (type png)
+
+<use imagenes/nucleipatches.png>
+Package pdftex.def Info: imagenes/nucleipatches.png used on input line 521.
+(pdftex.def)             Requested size: 171.14764pt x 59.48268pt.
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [17
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
-[]|\OT1/phv/m/n/10.95 PS
- []
+ <./imagenes/nucleipatches.png>]
+File: imagenes/nucleipatches.png Graphic file (type png)
+ <use imagenes/nucleipatches.png>
+Package pdftex.def Info: imagenes/nucleipatches.png used on input line 521.
+(pdftex.def)             Requested size: 171.14764pt x 59.48268pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
-[]|\OT1/phv/m/n/10.95 BOF
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
-[]|\OT1/phv/m/n/10.95 BOF
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
-[]|\OT1/phv/m/n/10.95 BOF
- []
-
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 541.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 541.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [18
 
-] <imagenes_cnn/CCn_methodFS2.png, id=522, 1315.16344pt x 664.73344pt>
-File: imagenes_cnn/CCn_methodFS2.png Graphic file (type png)
+]
+File: imagenes/nucleipatches.png Graphic file (type png)
+ <use imagenes/nucleipatches.png>
+Package pdftex.def Info: imagenes/nucleipatches.png used on input line 521.
+(pdftex.def)             Requested size: 171.14764pt x 59.48268pt.
 
-<use imagenes_cnn/CCn_methodFS2.png>
-Package pdftex.def Info: imagenes_cnn/CCn_methodFS2.png used on input line 548.
-
-(pdftex.def)             Requested size: 342.2953pt x 173.00919pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [19
 
- <./imagenes_cnn/CCn_methodFS2.png>]
-Overfull \hbox (5.59384pt too wide) in paragraph at lines 576--576
-[]|\OT1/phv/m/n/10.95 Validation| 
+] <dicc/kmeans.png, id=561, 383.4325pt x 303.1325pt>
+File: dicc/kmeans.png Graphic file (type png)
+ <use dicc/kmeans.png>
+Package pdftex.def Info: dicc/kmeans.png used on input line 554.
+(pdftex.def)             Requested size: 108.12012pt x 85.47319pt.
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
  []
 
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [20
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
-[]|\OT1/phv/m/n/10.95 CNN
- []
+ <./dicc/kmeans.png>] <dicc/2.png, id=591, 397.485pt x 391.061pt>
+File: dicc/2.png Graphic file (type png)
 
+<use dicc/2.png>
+Package pdftex.def Info: dicc/2.png used on input line 554.
+(pdftex.def)             Requested size: 108.12012pt x 106.36957pt.
 
-Overfull \hbox (4.5228pt too wide) in paragraph at lines 594--594
-\OT1/phv/m/n/10.95 (1024dim)| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
-[]|\OT1/phv/m/n/10.95 CNN
- []
-
-
-Overfull \hbox (5.1899pt too wide) in paragraph at lines 594--594
-[]|\OT1/phv/m/n/10.95 Resnet50| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
-[]|\OT1/phv/m/n/10.95 3Vs.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
-[]|\OT1/phv/m/n/10.95 1Vs.2
- []
-
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [21
 
-]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+ <./dicc/2.png>]
+<imagenes/unehistogram.png, id=618, 126.4725pt x 62.2325pt>
+File: imagenes/unehistogram.png Graphic file (type png)
+
+<use imagenes/unehistogram.png>
+Package pdftex.def Info: imagenes/unehistogram.png used on input line 554.
+(pdftex.def)             Requested size: 108.12012pt x 53.20268pt.
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [22
 
-]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+ <./imagenes/unehistogram.png>]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [23
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [24
 
-]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+] <imagenes/pyl0.png, id=700, 787.743pt x 625.537pt>
+File: imagenes/pyl0.png Graphic file (type png)
+
+<use imagenes/pyl0.png>
+Package pdftex.def Info: imagenes/pyl0.png used on input line 569.
+(pdftex.def)             Requested size: 205.37926pt x 163.0844pt.
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [25
 
-] <imagenes_cnn/Tsne_alpha90_cluster10.png, id=711, 1445.4pt x 1445.4pt>
-File: imagenes_cnn/Tsne_alpha90_cluster10.png Graphic file (type png)
+ <./imagenes/pyl0.png>] <imagenes/pyl1.png, id=729, 787.743pt x 627.143pt>
+File: imagenes/pyl1.png Graphic file (type png)
 
-<use imagenes_cnn/Tsne_alpha90_cluster10.png>
-Package pdftex.def Info: imagenes_cnn/Tsne_alpha90_cluster10.png used on input 
-line 697.
-(pdftex.def)             Requested size: 342.2953pt x 342.2936pt.
+<use imagenes/pyl1.png>
+Package pdftex.def Info: imagenes/pyl1.png used on input line 569.
+(pdftex.def)             Requested size: 205.37926pt x 163.5031pt.
 
-Overfull \vbox (83.32549pt too high) detected at line 697
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
  []
 
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [26
 
- <./imagenes_cnn/Tsne_alpha90_cluster10.png>]
-<imagenes/metodo_sipaim2017.png, id=739, 585.387pt x 409.53pt>
-File: imagenes/metodo_sipaim2017.png Graphic file (type png)
+ <./imagenes/pyl1.png>] <imagenes/pyl2.png, id=757, 787.743pt x 623.931pt>
+File: imagenes/pyl2.png Graphic file (type png)
 
-<use imagenes/metodo_sipaim2017.png>
-Package pdftex.def Info: imagenes/metodo_sipaim2017.png used on input line 723.
+<use imagenes/pyl2.png>
+Package pdftex.def Info: imagenes/pyl2.png used on input line 569.
+(pdftex.def)             Requested size: 205.37926pt x 162.66568pt.
 
-(pdftex.def)             Requested size: 325.17949pt x 227.49179pt.
-
-Overfull \vbox (2.3674pt too high) detected at line 723
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
  []
 
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
- [][]  \OT1/phv/m/n/6 ([])  
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [27
 
- <./imagenes/metodo_sipaim2017.png>]
-<dicc/kmeans.png, id=767, 383.4325pt x 303.1325pt>
-File: dicc/kmeans.png Graphic file (type png)
- <use dicc/kmeans.png>
-Package pdftex.def Info: dicc/kmeans.png used on input line 756.
-(pdftex.def)             Requested size: 108.12012pt x 85.47319pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+ <./imagenes/pyl2.png>]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [28
 
- <./dicc/kmeans.png>] <dicc/1.png, id=795, 397.485pt x 391.061pt>
-File: dicc/1.png Graphic file (type png)
+] <imagenes/metodo_BoF.png, id=811, 1004.553pt x 456.104pt>
+File: imagenes/metodo_BoF.png Graphic file (type png)
 
-<use dicc/1.png>
-Package pdftex.def Info: dicc/1.png used on input line 756.
-(pdftex.def)             Requested size: 108.12012pt x 106.36957pt.
+<use imagenes/metodo_BoF.png>
+Package pdftex.def Info: imagenes/metodo_BoF.png used on input line 576.
+(pdftex.def)             Requested size: 342.2953pt x 155.41432pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [29
 
- <./dicc/1.png>] <dicc/2.png, id=823, 397.485pt x 391.061pt>
-File: dicc/2.png Graphic file (type png)
+ <./imagenes/metodo_BoF.png>]
+<imagenes/descriptor.jpg, id=839, 888.31876pt x 485.815pt>
+File: imagenes/descriptor.jpg Graphic file (type jpg)
 
-<use dicc/2.png>
-Package pdftex.def Info: dicc/2.png used on input line 756.
-(pdftex.def)             Requested size: 108.12012pt x 106.36957pt.
+<use imagenes/descriptor.jpg>
+Package pdftex.def Info: imagenes/descriptor.jpg used on input line 590.
+(pdftex.def)             Requested size: 199.16928pt x 108.91818pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [30
 
- <./dicc/2.png>] <dicc/3.png, id=851, 397.485pt x 391.061pt>
-File: dicc/3.png Graphic file (type png)
+ <./imagenes/descriptor.jpg>]
+File: imagenes/descriptor.jpg Graphic file (type jpg)
+ <use imagenes/descriptor.jpg>
+Package pdftex.def Info: imagenes/descriptor.jpg used on input line 590.
+(pdftex.def)             Requested size: 199.16928pt x 108.91818pt.
 
-<use dicc/3.png>
-Package pdftex.def Info: dicc/3.png used on input line 756.
-(pdftex.def)             Requested size: 108.12012pt x 106.36957pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [31
 
- <./dicc/3.png>]
-<imagenes/unehistogram.png, id=880, 126.4725pt x 62.2325pt>
-File: imagenes/unehistogram.png Graphic file (type png)
+] <imagenes_cnn/CCn_methodF.png, id=893, 1315.16344pt x 663.98062pt>
+File: imagenes_cnn/CCn_methodF.png Graphic file (type png)
 
-<use imagenes/unehistogram.png>
-Package pdftex.def Info: imagenes/unehistogram.png used on input line 756.
-(pdftex.def)             Requested size: 108.12012pt x 53.20268pt.
+<use imagenes_cnn/CCn_methodF.png>
+Package pdftex.def Info: imagenes_cnn/CCn_methodF.png used on input line 598.
+(pdftex.def)             Requested size: 342.2953pt x 172.81325pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [32
 
- <./imagenes/unehistogram.png>]
-<imagenes/multiplehistogram.png, id=910, 123.46124pt x 72.27pt>
-File: imagenes/multiplehistogram.png Graphic file (type png)
-
-<use imagenes/multiplehistogram.png>
-Package pdftex.def Info: imagenes/multiplehistogram.png used on input line 756.
-
-(pdftex.def)             Requested size: 108.12012pt x 63.29341pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+ <./imagenes_cnn/CCn_methodF.png>]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [33
 
- <./imagenes/multiplehistogram.png (PNG copy)>]
-<imagenes/metodo_sustentacion.png, id=936, 480.194pt x 419.166pt>
-File: imagenes/metodo_sustentacion.png Graphic file (type png)
-
-<use imagenes/metodo_sustentacion.png>
-Package pdftex.def Info: imagenes/metodo_sustentacion.png used on input line 99
-2.
-(pdftex.def)             Requested size: 195.11082pt x 170.31136pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [34
 
- <./imagenes/metodo_sustentacion.png>]
-File: imagenes/metodo_sipaim2017.png Graphic file (type png)
- <use imagenes/metodo_sipaim2017.png>
-Package pdftex.def Info: imagenes/metodo_sipaim2017.png used on input line 996.
-
-(pdftex.def)             Requested size: 232.75829pt x 162.83426pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [35
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1008.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 1008.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [36
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 1016.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [37
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [38
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [39
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (5.59384pt too wide) in paragraph at lines 654--654
+[]|\OT1/phv/m/n/10.95 Validation| 
+ []
+
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [40
 
-] <imagenes/all.png, id=1129, 839.38594pt x 460.72125pt>
-File: imagenes/all.png Graphic file (type png)
+] <imagenes_cnn/autoencoderresponse.png, id=1132, 424.58624pt x 244.915pt>
+File: imagenes_cnn/autoencoderresponse.png Graphic file (type png)
 
-<use imagenes/all.png>
-Package pdftex.def Info: imagenes/all.png used on input line 1037.
-(pdftex.def)             Requested size: 290.9531pt x 159.69418pt.
+<use imagenes_cnn/autoencoderresponse.png>
+Package pdftex.def Info: imagenes_cnn/autoencoderresponse.png used on input lin
+e 664.
+(pdftex.def)             Requested size: 290.9531pt x 167.83675pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [41
 
- <./imagenes/all.png (PNG copy)>]
-<imagenes/cluster3.png, id=1156, 365.86688pt x 304.13625pt>
-File: imagenes/cluster3.png Graphic file (type png)
-
-<use imagenes/cluster3.png>
-Package pdftex.def Info: imagenes/cluster3.png used on input line 1048.
-(pdftex.def)             Requested size: 106.1107pt x 88.20653pt.
-
-<imagenes/cluster4.png, id=1157, 365.86688pt x 304.13625pt>
-File: imagenes/cluster4.png Graphic file (type png)
-
-<use imagenes/cluster4.png>
-Package pdftex.def Info: imagenes/cluster4.png used on input line 1048.
-(pdftex.def)             Requested size: 106.1107pt x 88.20653pt.
-
-<imagenes/cluster8.png, id=1158, 365.86688pt x 304.13625pt>
-File: imagenes/cluster8.png Graphic file (type png)
-
-<use imagenes/cluster8.png>
-Package pdftex.def Info: imagenes/cluster8.png used on input line 1048.
-(pdftex.def)             Requested size: 106.1107pt x 88.20653pt.
-
-<imagenes/clustes7.png, id=1159, 365.86688pt x 304.13625pt>
-File: imagenes/clustes7.png Graphic file (type png)
-
-<use imagenes/clustes7.png>
-Package pdftex.def Info: imagenes/clustes7.png used on input line 1048.
-(pdftex.def)             Requested size: 106.1107pt x 88.20653pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+ <./imagenes_cnn/autoencoderresponse.png>]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [42
 
- <./imagenes/cluster3.png> <./imagenes/cluster4.png> <./imagenes/cluster8.png> 
-<./imagenes/clustes7.png>]
-<imagenes/metodo_BoF.png, id=1189, 1004.553pt x 456.104pt>
-File: imagenes/metodo_BoF.png Graphic file (type png)
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 691.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 9.85492pt on input line 691.
 
-<use imagenes/metodo_BoF.png>
-Package pdftex.def Info: imagenes/metodo_BoF.png used on input line 1219.
-(pdftex.def)             Requested size: 342.2953pt x 155.41432pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
  []
 
-Package atenddvi Info: Last page = 43.
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [43
 
- <./imagenes/metodo_BoF.png>]
-<imagenes/descriptor.jpg, id=1217, 888.31876pt x 485.815pt>
-File: imagenes/descriptor.jpg Graphic file (type jpg)
+]
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
+[]|\OT1/phv/m/n/10.95 CNN
+ []
 
-<use imagenes/descriptor.jpg>
-Package pdftex.def Info: imagenes/descriptor.jpg used on input line 1257.
-(pdftex.def)             Requested size: 199.16928pt x 108.91818pt.
 
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (4.5228pt too wide) in paragraph at lines 709--709
+\OT1/phv/m/n/10.95 (1024dim)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
+[]|\OT1/phv/m/n/10.95 CNN
+ []
+
+
+Overfull \hbox (5.1899pt too wide) in paragraph at lines 709--709
+[]|\OT1/phv/m/n/10.95 Resnet50| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
+[]|\OT1/phv/m/n/10.95 3Vs.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
+[]|\OT1/phv/m/n/10.95 1Vs.2
+ []
+
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [44
 
- <./imagenes/descriptor.jpg>]
-File: imagenes/descriptor.jpg Graphic file (type jpg)
- <use imagenes/descriptor.jpg>
-Package pdftex.def Info: imagenes/descriptor.jpg used on input line 1257.
-(pdftex.def)             Requested size: 199.16928pt x 108.91818pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [45
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 730.
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [46
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [47
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [48
 
 ]
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [49
 
-] <imagenes_cnn/CCn_methodF.png, id=1379, 1315.16344pt x 663.98062pt>
-File: imagenes_cnn/CCn_methodF.png Graphic file (type png)
-
-<use imagenes_cnn/CCn_methodF.png>
-Package pdftex.def Info: imagenes_cnn/CCn_methodF.png used on input line 1324.
-(pdftex.def)             Requested size: 342.2953pt x 172.81325pt.
-
-Overfull \hbox (102.88733pt too wide) has occurred while \output is active
+]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
  [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [50
 
- <./imagenes_cnn/CCn_methodF.png>]
+] <imagenes/newproposalSP.png, id=1405, 2343.957pt x 1390.796pt>
+File: imagenes/newproposalSP.png Graphic file (type png)
+
+<use imagenes/newproposalSP.png>
+Package pdftex.def Info: imagenes/newproposalSP.png used on input line 790.
+(pdftex.def)             Requested size: 342.2953pt x 203.09273pt.
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[51
+
+ <./imagenes/newproposalSP.png>]
+File: imagenes/newproposalSP.png Graphic file (type png)
+ <use imagenes/newproposalSP.png>
+Package pdftex.def Info: imagenes/newproposalSP.png used on input line 790.
+(pdftex.def)             Requested size: 342.2953pt x 203.09273pt.
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[52
+
+] <imagenes/ClusterinLayer.png, id=1460, 1204.5pt x 491.8375pt>
+File: imagenes/ClusterinLayer.png Graphic file (type png)
+
+<use imagenes/ClusterinLayer.png>
+Package pdftex.def Info: imagenes/ClusterinLayer.png used on input line 799.
+(pdftex.def)             Requested size: 342.2953pt x 139.76988pt.
+
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[53
+
+ <./imagenes/ClusterinLayer.png>]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[54
+
+]
+Overfull \hbox (131.10695pt too wide) has occurred while \output is active
+ [][]  \OT1/phv/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (114.98311pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+Package atenddvi Info: Last page = 55.
+[55
+
+]
 \tf@nav=\write7
 \openout7 = `main.nav'.
 
@@ -3060,40 +3302,34 @@ Overfull \hbox (102.88733pt too wide) has occurred while \output is active
 
  
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1327.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 1327.
-(./main.aux
-
-Package atenddvi Warning: Rerun LaTeX, last page has changed.
-
-
-Package animate Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-(animate)                @@ Rerun to get internal references right! @@
-(animate)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1327.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1327.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 054E53030001EAD7A58DDE1314D01186;119.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1466.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 1466.
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1466.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1466.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 5C714C3B2446B6A5CCAF9E19919FD3C5;230
+(rerunfilecheck)             After:  FB8ED167056B8BF7437211E89ADF0140;226.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1327.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1466.
  ) 
 Here is how much of TeX's memory you used:
- 48772 strings out of 493029
- 1095516 string characters out of 6136233
- 1698400 words of memory out of 5000000
- 51256 multiletter control sequences out of 15000+600000
- 38319 words of font info for 76 fonts, out of 8000000 for 9000
+ 48774 strings out of 493029
+ 1095189 string characters out of 6136233
+ 1695681 words of memory out of 5000000
+ 51250 multiletter control sequences out of 15000+600000
+ 42081 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,79p,10423b,1446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,79p,10423b,1440s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
@@ -3101,10 +3337,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
 /type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr
 o8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (50 pages, 15707950 bytes).
+Output written on main.pdf (55 pages, 16023497 bytes).
 PDF statistics:
- 1458 PDF objects out of 1728 (max. 8388607)
- 1323 compressed objects within 14 object streams
- 102 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1593 PDF objects out of 1728 (max. 8388607)
+ 1462 compressed objects within 15 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
