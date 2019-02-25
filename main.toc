@@ -4,10 +4,4 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {1}{Quantification of Premalignant Lesions of the Gastric Mucosa - 1st case of Study}{6}{0}{1}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Materials and Methods}{20}{0}{2}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Nuclear Pleomorphism (NP) in Ductal carcinoma in situ (DCIS) - 2nd case of Study}{22}{0}{3}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{ Nuclear Pleomorphism (NP) - The Suitability of a Quantitative Estimation}{23}{0}{4}
+\beamer@sectionintoc {1}{Nuclear Pleomorphism (NP) in Ductal carcinoma in situ (DCIS) - 2nd case of Study}{6}{0}{1}
