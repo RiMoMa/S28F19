@@ -128,6 +128,36 @@
 
 
 
+
+
+
+\makeatother
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=2.0\paperwidth,ht=2.25ex,dp=1ex,center]{}%
+    \insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+
+
+
+
+
+
+
+
 \PassOptionsToPackage{demo}{graphicx}
 
 \makeatletter
@@ -184,7 +214,7 @@
 
 \begin{frame}{Pathological examination issues}
 	\begin{itemize}
-	 \item Due to the heterogeneity between the healthy tissue and the disease, most of the morphological indicators of prognosis are not quantified
+	 \item Due to the heterogeneity between the tumour tissue, most of the morphological indicators of prognosis are not quantified
      \pause
 	 \item The observations are susceptible to inter and intra observer variations
       %\textcolor{red}{Imagenes con kappa}	 
@@ -196,7 +226,7 @@
 
 \begin{frame}{The Suitability of a Quantitative Estimation in Pathology Workflow}
  \begin{itemize}
-  \item Digital version of the whole glass slide and image analysis are using to improve the diagnosis
+  \item Digital version of the whole glass slide and image analysis are being used to improve the diagnosis
   \pause
 
   \item The Quantification of morphological structures to determine the predisposition of a disease and to deliver healthcare%\textcolor{red}{imagenes??}
@@ -416,11 +446,11 @@
 \begin{frame}{Nuclear Pleomorphism}
 \vspace{-0.5cm}
 \begin{itemize}
-\only<1->{\item The current research is on automatic strategies to quantify nuclear pleomorphism in breast cancer(NPBca).
+\only<1->{\item The current research is onto automatic strategies to quantify nuclear pleomorphism in breast cancer(NPBca).
 }
 \only<2->{\item NPBca is an indicator of the aggressiveness of the disease
 }
-\only<3->{\item NP has a low inter-observer agreement ($0.3<\kappa<0.5$)}
+\only<3->{\item NP has a low inter-observer agreement ($0.3<\kappa<0.5$)\blfootnote{Kappa coefficient ($\kappa$) measures the agreement between examiners $\kappa=\{0,1\}$ }}
 \end{itemize}
 
 \vspace{0.3cm}
@@ -444,10 +474,11 @@
 \\\centering \scriptsize grade 3
 
 \end{column}
-
 \end{columns}
       
   }
+\centering Variations in size and shape of the nuclei, NPBca
+
 \end{frame}
 
 
@@ -545,8 +576,8 @@
 \begin{overprint}
 \begin{itemize}
 \item<1-> The multi-scale feature space is  partitioned with a $k$-means algorithm
-\item<2-> Each centroid correspond to a visual word in the BoF
-\item<3-> Each new candidate from a train or test image is represented by some atom in the dictionary, building an histogram.
+\item<2-> Each centroid corresponds to a coded visual word in the BoF
+\item<3-> Each new nucleus candidate from a train or test image is represented by some centroid in the dictionary, then, a histogram is building.
 \end{itemize}
 \end{overprint}
 \end{column}
@@ -554,11 +585,12 @@
 \end{frame}
 
 \begin{frame}{Spatial Pyramidal Matching}
-\only<1-2,6>{\vspace{-4cm}}
+\only<1-2,6>{\vspace{-3.5cm}}
 \begin{itemize}
-\item<1-> Locally representation at several levels of resolution
+\item<1-> Local representation at several levels of resolution using a bag of features approach
+
 \item<2-> The construction is as follow:
-\item<6> The histograms are concatenated in a single vector and feed the classifier
+\item<6> The histograms are concatenated into a single vector and feed the classifier
 \end{itemize}
 
 \centering\only<3>{\includegraphics[width = 0.6\textwidth]{imagenes/pyl0.png}}
@@ -614,8 +646,9 @@
 \begin{frame}{Experiments }
 \begin{itemize}
 \item Public database - Mitos Atypia 14
-\item  Patches of 72x72 pixels are extracted using the nuclei centroid as seed
+\item  Patches of 72x72 pixels are extracted using the nuclei centroid as a seed
 \item SPYA framework was evaluated also using each level independently and altogether
+\item Patches of 344x344 pixels are extracted to train and test CNN
 
  
 \end{itemize}
@@ -782,7 +815,7 @@ Then, we obtain a better model of NP using the spatial pyramidal representation 
 
 \includegraphics[width = \textwidth]{imagenes/newproposalSP.png}
 
-\only<2>{\vspace{-5cm}
+\only<2>{\vspace*{-5cm}
 \begin{block}{}{
 Two main diferences of the previous aproach are presented: 1) The clustering step, 2) A topic representation}
 \end{block}}
